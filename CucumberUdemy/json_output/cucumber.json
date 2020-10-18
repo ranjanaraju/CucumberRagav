@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Verify login sucessfull",
+        "description": "",
+        "id": "launching-execute-automation;verify-login-sucessfull",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17862505900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Entering the valid credentials",
+            "match": {
+              "location": "loginPOM.entering_the_valid_credentials()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2100607500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter username and password",
+            "match": {
+              "location": "loginPOM.enter_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 812121800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on login",
+            "match": {
+              "location": "loginPOM.click_on_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Launching execute automation",
+    "description": "",
+    "id": "launching-execute-automation",
+    "keyword": "Feature",
+    "uri": "E:/Photon Workspace/CucumberUdemy/src/main/java/Features/login3.feature"
+  }
+]
